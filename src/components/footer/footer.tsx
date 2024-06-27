@@ -1,9 +1,9 @@
 import { ButtonSocial } from '../buttonSocial/buttonSocial'
 import { Container, ButtonCreate, TextOptions, OptionsLogin, TextCreateAccount } from './styledFooter'
-import GoogleSVG from '../../assets/google.svg'
-import FacebookSVG from '../../assets/facebook.svg'
-import AppleSVG from '../../assets/apple.svg'
-import TwitterSVG from '../../assets/twitter.svg'
+import Facebook from '../../assets/facebook.png'
+import Google from '../../assets/google.png'
+import Apple from '../../assets/apple.png'
+import Twitter from '../../assets/twitter.png'
 
 interface FooterProps{
     text: string
@@ -20,16 +20,16 @@ export function Footer({text, textLink, path}: FooterProps) {
             </TextOptions>
             <OptionsLogin>
                 <ButtonSocial 
-                icon={GoogleSVG}
+               icon={Google}
                 />
                 <ButtonSocial 
-                icon={FacebookSVG}
+               icon={Facebook}
                 />
                 <ButtonSocial 
-                icon={AppleSVG}
+                 icon={Apple}
                 />
                 <ButtonSocial 
-                icon={TwitterSVG}
+                icon={Twitter}
                 />
                 
             </OptionsLogin>

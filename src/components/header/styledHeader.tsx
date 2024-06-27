@@ -1,6 +1,6 @@
 import styled from 'styled-components';
 import { FaArrowLeft } from 'react-icons/fa6';
-import FlowerBG from '../../assets/flowerbg.svg'
+import FlowerBG from '../../assets/flowerbg.png'
 
 
 export const HeaderContainer = styled.div`

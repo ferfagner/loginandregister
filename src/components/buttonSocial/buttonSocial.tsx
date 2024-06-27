@@ -1,14 +1,16 @@
 import {Container} from './styledButtonSocial'
 
+
+
 interface ButtonSocialProps {
-    icon: string;
+    icon?: string;
 }
 
 export function ButtonSocial({ icon }: ButtonSocialProps){
 
     return(
     <Container>
-    <img src={icon}/>
+    <img src={icon} typeof='svg'/>
     
     </Container>
     

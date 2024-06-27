@@ -20,7 +20,7 @@ export function Register() {
          
         },
         validationSchema: schema,
-        onSubmit: async (values) => {
+        onSubmit: async () => {
          
       }});
 
