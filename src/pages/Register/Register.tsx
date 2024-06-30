@@ -59,7 +59,7 @@ export function Register() {
                 
                 <Button 
                 type="button"
-                title='Login'
+                title='Create Account'
                 />
                 <Forget>
                 Forgot Password
