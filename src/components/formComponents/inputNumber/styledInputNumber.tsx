@@ -3,7 +3,6 @@ import styled from 'styled-components';
 import { BiSolidMobile } from "react-icons/bi";
 
 export const ContainerInput = styled.div`
-margin-top: 1.5rem;
 display: flex;
 align-items: center;
 border: 2px solid ${(props) => props.theme.colors.gray50};
@@ -13,7 +12,6 @@ height: 68px;
 `;
 
 export const Container = styled.div`
-margin-top: 1.5rem;
 `;
 
 export const ErrorMensagem = styled.div`

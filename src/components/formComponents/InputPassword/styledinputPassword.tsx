@@ -3,7 +3,6 @@ import styled from 'styled-components';
 import { IoMdLock } from "react-icons/io";
 import { VscEye } from "react-icons/vsc";
 export const ContainerInput = styled.div`
-margin-top: 1.5rem;
 display: flex;
 flex-direction: row;
 align-items: center;
@@ -14,7 +13,6 @@ height: 68px;
 `;
 
 export const Container = styled.div`
-margin-top: 1.5rem;
 `;
 
 export const ContainerIconPassword = styled.button`
