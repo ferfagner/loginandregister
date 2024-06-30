@@ -1,6 +1,6 @@
 import styled from 'styled-components';
 import { FaArrowLeft } from 'react-icons/fa6';
-import FlowerBG from '../../../public/facebook.png' 
+import FlowerBG from '../../../public/flowerbg.png' 
 
 export const HeaderContainer = styled.div`
   flex-grow: 1;
