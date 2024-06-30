@@ -26,10 +26,10 @@ export function Register() {
 
     return (
         <Container>
-            <Header title='Login' />
+            <Header title='Create Account' />
             <ContainerPage>
-                <Subtitle>Welcome back!<br></br>
-                    Please login to continue</Subtitle>
+                <Subtitle>Enter your information below or continue <br></br>
+                with social media account</Subtitle>
                 <InputText 
                 title="Email Address"
                 placeholder="Your email address"
